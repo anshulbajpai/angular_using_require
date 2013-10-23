@@ -1,0 +1,14 @@
+{
+	 "folders":
+    [
+        {
+            "path": "src",
+            "follow_symlinks": true
+        },
+        {
+            "path": "test",
+            "follow_symlinks": true
+        }
+
+    ]
+}
