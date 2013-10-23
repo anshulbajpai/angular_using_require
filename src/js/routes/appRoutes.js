@@ -1,5 +1,5 @@
 define(['modules/app','controllers/appController'], function(app){
-	app.config(function($routeProvider){
+	app.config(['$routeProvider',function($routeProvider){
 		$routeProvider.when('/',{
 			templateUrl : 'partials/login.html'	
 		}).
@@ -7,5 +7,5 @@ define(['modules/app','controllers/appController'], function(app){
 			controller : 'login',
 			templateUrl : 'partials/hello.html'	
 		});
-	});
+	}]);
 });
